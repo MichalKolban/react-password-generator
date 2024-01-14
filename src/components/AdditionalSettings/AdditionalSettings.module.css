@@ -1,0 +1,14 @@
+.additionalSettings {
+  padding: 15px 20px;
+  width: 500px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.additionalSettings input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  margin-right: 20px;
+}
