@@ -1,0 +1,12 @@
+.btn {
+  margin: 5px;
+  padding: 10px 15px;
+  border: #222;
+  outline: none;
+  font-size: 16px;
+  transition: 1s;
+}
+
+.btn:hover {
+  border: 2px solid #222;
+}

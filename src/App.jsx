@@ -1,4 +1,5 @@
 import "./App.css";
+import styles from "./App.module.css";
 import { Layout } from "./Layout/Layout";
 import { PasswordGenerator } from "./components/PasswordGenerator/PasswordGenerator";
 import { AdditionalSettings } from "./components/AdditionalSettings/AdditionalSettings";
@@ -27,7 +28,8 @@ function App() {
           onNumber={(val) => setNumber(val)}
           onSpecial={(val) => setSpecial(val)}
         />
-        <button style={{ margin: "20px 0" }} onClick={generatePassword}>
+        {/* <button className={styles.btn} onClick={generatePassword}> */}
+        <button className={styles.btn} onClick={generatePassword}>
           Generate Password
         </button>
         <Output output={outputPass}></Output>

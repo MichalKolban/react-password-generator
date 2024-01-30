@@ -1,7 +1,11 @@
 .output {
-  height: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 30px;
+  text-wrap: wrap;
+  height: 120px;
+  word-break: break-all;
+  margin-bottom: 20px;
+  max-width: 90%;
 }

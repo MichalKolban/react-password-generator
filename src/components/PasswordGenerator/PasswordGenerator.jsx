@@ -19,9 +19,9 @@ export const PasswordGenerator = ({ onPasswordLength }) => {
           type="range"
           defaultValue={inputPassword}
           min={8}
-          max={65}
+          max={52}
         />
-        <p>{inputPassword}</p>
+        <p className={styles.passwordNum}>{inputPassword}</p>
       </div>
     </>
   );

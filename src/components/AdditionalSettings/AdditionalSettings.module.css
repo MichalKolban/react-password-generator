@@ -1,6 +1,5 @@
 .additionalSettings {
   padding: 15px 20px;
-  width: 500px;
   display: flex;
   justify-content: space-around;
 }
@@ -11,4 +10,23 @@
   align-items: center;
   width: 20px;
   margin-right: 20px;
+}
+
+.additionalSettings .inputBox {
+  width: 200px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+@media only screen and (max-width: 600px) {
+  .additionalSettings {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .additionalSettings .inputBox {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: start;
+  }
 }
